@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Arangaon Grampanchayat</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+        @theme {
+            --color-primary: #16a34a;
+            --color-primary-foreground: #ffffff;
+            --color-background: #f8fafc;
+            --color-card: #ffffff;
+            --color-foreground: #0f172a;
+            --color-muted: #f1f5f9;
+            --color-muted-foreground: #64748b;
+            --color-border: #e2e8f0;
+            --color-accent: #dcfce7;
+            --color-accent-foreground: #166534;
+        }
+        body { font-family: system-ui, -apple-system, sans-serif; background-color: var(--color-background); color: var(--color-foreground); }
+    </style>
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="flex flex-col min-h-screen">
+    <header class="sticky top-0 z-50 w-full border-b border-border bg-white/80 backdrop-blur">
+        <div class="container mx-auto px-4 h-16 flex items-center justify-between">
+            <a href="index.html" class="flex items-center gap-3">
+                <img src="assets/grampanchayat-logo.webp" alt="Logo" class="h-10 w-10">
+                <div>
+                    <h1 class="font-bold text-lg leading-tight">Arangaon Grampanchayat</h1>
+                    <p class="text-[10px] text-muted-foreground uppercase tracking-widest">(Meherabad), Tal. & Dist. Ahilyanagar</p>
+                </div>
+            </a>
+            <nav class="hidden md:flex items-center gap-6 text-sm font-medium">
+                <a href="index.html" class="hover:text-primary transition-colors">Home</a>
+                <a href="about.html" class="hover:text-primary transition-colors">About</a>
+                <a href="history.html" class="hover:text-primary transition-colors">History</a>
+                <a href="services.html" class="hover:text-primary transition-colors">Services</a>
+                <a href="gallery.html" class="hover:text-primary transition-colors">Gallery</a>
+                <a href="contact.html" class="hover:text-primary transition-colors">Contact</a>
+            </nav>
+        </div>
+    </header>
+    <main class="flex-1">
+
+<section class="bg-background">
+    <div class="container mx-auto px-4 pt-6">
+        <div class="rounded-xl overflow-hidden border border-border shadow-sm bg-card">
+            <img src="assets/grampanchayat-bhavan.jpeg" alt="Gramsansad Bhavan" class="w-full h-[320px] sm:h-[440px] lg:h-[520px] object-cover object-center">
+        </div>
+    </div>
+    <div class="container mx-auto px-4 py-10 text-center sm:text-left">
+        <span class="inline-block px-3 py-1 rounded-full bg-accent text-accent-foreground text-xs font-medium tracking-wide">ARANGAON • MEHERABAD • AHMEDNAGAR</span>
+        <h1 class="mt-4 text-3xl sm:text-5xl font-bold max-w-3xl leading-tight">Welcome to Arangaon Grampanchayat</h1>
+        <p class="mt-4 max-w-2xl text-base sm:text-lg text-muted-foreground">A historic village of Meherabad — committed to transparent governance, sustainable development, and the well-being of every citizen.</p>
+        <div class="mt-7 flex flex-wrap gap-3 justify-center sm:justify-start">
+            <a href="services.html" class="inline-flex items-center gap-2 px-5 py-2.5 rounded-md bg-primary text-primary-foreground font-semibold shadow-md hover:bg-primary/90">Explore Services <i data-lucide="arrow-right" class="h-4 w-4"></i></a>
+            <a href="contact.html" class="inline-flex items-center gap-2 px-5 py-2.5 rounded-md border border-border bg-white hover:bg-muted font-medium">Contact Office</a>
+        </div>
+    </div>
+</section>
+
+<section class="container mx-auto px-4 py-14">
+    <div class="max-w-3xl">
+        <h2 class="text-2xl sm:text-3xl font-bold">Serving Our Village with Pride</h2>
+        <p class="mt-4 text-muted-foreground leading-relaxed">Arangaon Grampanchayat works for the all-round development of our village — from clean water and roads to education, healthcare, and the preservation of our rich heritage. We believe in participation, transparency, and progress for every family.</p>
+    </div>
+</section>
+
+<section class="bg-amber-50/50 border-y border-border">
+    <div class="container mx-auto px-4 py-14 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+        <div class="bg-card rounded-xl p-5 shadow-sm border border-border">
+            <div class="h-10 w-10 rounded-lg bg-accent text-accent-foreground flex items-center justify-center mb-3"><i data-lucide="building-2" class="h-5 w-5"></i></div>
+            <h3 class="font-semibold">Local Governance</h3><p class="text-sm text-muted-foreground mt-1">Decisions made by and for the village.</p>
+        </div>
+        <div class="bg-card rounded-xl p-5 shadow-sm border border-border">
+            <div class="h-10 w-10 rounded-lg bg-accent text-accent-foreground flex items-center justify-center mb-3"><i data-lucide="users" class="h-5 w-5"></i></div>
+            <h3 class="font-semibold">Citizen First</h3><p class="text-sm text-muted-foreground mt-1">Quick services and grievance redressal.</p>
+        </div>
+        <div class="bg-card rounded-xl p-5 shadow-sm border border-border">
+            <div class="h-10 w-10 rounded-lg bg-accent text-accent-foreground flex items-center justify-center mb-3"><i data-lucide="leaf" class="h-5 w-5"></i></div>
+            <h3 class="font-semibold">Sustainable Growth</h3><p class="text-sm text-muted-foreground mt-1">Water, sanitation and clean villages.</p>
+        </div>
+        <div class="bg-card rounded-xl p-5 shadow-sm border border-border">
+            <div class="h-10 w-10 rounded-lg bg-accent text-accent-foreground flex items-center justify-center mb-3"><i data-lucide="shield-check" class="h-5 w-5"></i></div>
+            <h3 class="font-semibold">Transparency</h3><p class="text-sm text-muted-foreground mt-1">Open records and accountable work.</p>
+        </div>
+    </div>
+</section>
+
+    </main>
+    <footer class="bg-white border-t border-border mt-auto">
+        <div class="container mx-auto px-4 py-12 grid gap-8 md:grid-cols-4">
+            <div class="md:col-span-2">
+                <div class="flex items-center gap-3 mb-4">
+                    <img src="assets/grampanchayat-logo.webp" alt="Logo" class="h-8 w-8 grayscale opacity-70">
+                    <h2 class="font-bold text-lg">Arangaon Grampanchayat</h2>
+                </div>
+                <p class="text-sm text-muted-foreground max-w-sm mb-6">A historic village serving its citizens with transparency and care.</p>
+                <div class="flex flex-col gap-2 text-sm text-muted-foreground">
+                    <span class="flex items-center gap-2"><i data-lucide="map-pin" class="h-4 w-4"></i> Gramsansad Bhavan, Arangaon (Meherabad), Ahilyanagar, Maharashtra</span>
+                    <span class="flex items-center gap-2"><i data-lucide="mail" class="h-4 w-4"></i> arangaongp@gmail.com</span>
+                </div>
+            </div>
+            <div>
+                <h3 class="font-semibold mb-4">Quick Links</h3>
+                <ul class="space-y-3 text-sm text-muted-foreground">
+                    <li><a href="about.html" class="hover:text-foreground">About</a></li>
+                    <li><a href="history.html" class="hover:text-foreground">History</a></li>
+                    <li><a href="services.html" class="hover:text-foreground">Services</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="font-semibold mb-4">Contact</h3>
+                <ul class="space-y-3 text-sm text-muted-foreground">
+                    <li><a href="gallery.html" class="hover:text-foreground">Gallery</a></li>
+                    <li><a href="contact.html" class="hover:text-foreground">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="border-t border-border py-6 text-center text-xs text-muted-foreground">
+            &copy; 2026 Arangaon Grampanchayat. All rights reserved. Designed for the citizens of Arangaon.
+        </div>
+    </footer>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
