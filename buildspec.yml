@@ -1,0 +1,8 @@
+version: 0.2
+phases:
+  post_build:
+    commands:
+      - aws cloudfront create-invalidation EYCG1HZB6Q75S "/*"
+artifacts:
+  files:
+    - '**/*'
