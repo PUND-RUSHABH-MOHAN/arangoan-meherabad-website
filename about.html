@@ -1,32 +1,358 @@
-<section class="bg-white border-b border-border py-12 sm:py-20">
-    <div class="container mx-auto px-4 text-center">
-        <h1 class="text-3xl sm:text-5xl font-bold">About Arangaon</h1>
-        <p class="mt-4 text-muted-foreground max-w-2xl mx-auto text-lg">A village rooted in tradition, moving towards progress.</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About — Arangaon Grampanchayat</title>
+  <meta name="description" content="About Arangaon Grampanchayat, Meherabad — its mission, values and people." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Utility Bar -->
+  <div class="utility-bar">
+    <div class="container">
+      <button class="lang-btn">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+        मराठी
+      </button>
+      <a href="mailto:arangaongram@gmail.com" class="utility-email">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+        arangaongram@gmail.com
+      </a>
     </div>
-</section>
-<section class="container mx-auto px-4 py-16 grid gap-12 lg:grid-cols-[1fr_300px]">
-    <div class="prose prose-slate max-w-none">
-        <p class="text-lg leading-relaxed text-slate-700">Arangaon, also known as Meherabad, is a village in Ahilyanagar district of Maharashtra, India. The Grampanchayat is the local self-government body responsible for the administration and development of the village. Our office — Gramsansad Bhavan — serves as the centre for citizen services, public meetings, and community decisions. We focus on inclusive growth, modern infrastructure, and preserving the cultural identity that makes Arangaon special.</p>
-        <h2 class="text-2xl font-bold mt-10 mb-4">Our Mission</h2>
-        <p class="text-slate-700">To deliver responsive, transparent and inclusive local self-government — improving the quality of life for every resident of Arangaon while preserving our heritage.</p>
-        <h2 class="text-2xl font-bold mt-10 mb-4">Our Values</h2>
-        <ul class="list-disc pl-6 text-slate-700 space-y-2">
-            <li>Transparency in every decision</li>
-            <li>Equality and dignity for all citizens</li>
+  </div>
+
+  <!-- Header -->
+  <header>
+    <div class="container header-inner">
+      <a href="index.html" class="logo-link">
+        <div class="logo-img" style="background:var(--accent);display:flex;align-items:center;justify-content:center;font-size:1.5rem;">🏛️</div>
+        <div class="logo-text">
+          <div class="logo-name">Arangaon Grampanchayat</div>
+          <div class="logo-sub">Meherabad • Ahilyanagar</div>
+        </div>
+      </a>
+      <nav>
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link active">About</a>
+        <a href="history.html" class="nav-link">History</a>
+        <a href="services.html" class="nav-link">Services</a>
+        <a href="gallery.html" class="nav-link">Gallery</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+      <button class="hamburger" onclick="toggleMobileNav()">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-nav" id="mobileNav">
+      <div class="container">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link active">About</a>
+        <a href="history.html" class="nav-link">History</a>
+        <a href="services.html" class="nav-link">Services</a>
+        <a href="gallery.html" class="nav-link">Gallery</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- Page Header -->
+    <section class="page-header">
+      <div class="container" style="text-align:center;">
+        <p style="font-size:0.85rem;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;color:var(--accent);margin-bottom:0.5rem;">Grampanchayat Arangaon</p>
+        <h1>About Arangaon</h1>
+        <p>A village rooted in tradition, moving towards progress.<br>Known across the world as Meherabad — the sacred land of Avatar Meher Baba.</p>
+      </div>
+    </section>
+
+    <!-- Stats Bar -->
+    <section style="background:var(--primary);color:#fff;padding:2rem 0;">
+      <div class="container">
+        <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:1.5rem;text-align:center;">
+          <div>
+            <p style="font-size:2rem;font-weight:700;margin:0;">~3,500</p>
+            <p style="font-size:0.85rem;margin:0.25rem 0 0;opacity:0.8;">Population</p>
+          </div>
+          <div>
+            <p style="font-size:2rem;font-weight:700;margin:0;">16</p>
+            <p style="font-size:0.85rem;margin:0.25rem 0 0;opacity:0.8;">Committee Members</p>
+          </div>
+          <div>
+            <p style="font-size:2rem;font-weight:700;margin:0;">1945</p>
+            <p style="font-size:0.85rem;margin:0.25rem 0 0;opacity:0.8;">Meherabad Established</p>
+          </div>
+          <div>
+            <p style="font-size:2rem;font-weight:700;margin:0;">Ahilyanagar</p>
+            <p style="font-size:0.85rem;margin:0.25rem 0 0;opacity:0.8;">District</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Committee Members -->
+    <section class="committee-section">
+      <div class="container">
+        <h2>
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          Committee Members
+        </h2>
+        <div class="committee-grid">
+
+          <!-- Sarpanch — highlighted -->
+          <div class="member-card" style="border-top:3px solid var(--primary);">
+            <div class="name">श्री. पोपट विठ्ठल पुंड</div>
+            <div class="role">Sarpanch</div>
+          </div>
+
+          <!-- Deputy Sarpanch — highlighted -->
+          <div class="member-card" style="border-top:3px solid var(--accent);">
+            <div class="name">सौ. मोहिनी सूर्यभान जाधव</div>
+            <div class="role">Deputy Sarpanch</div>
+          </div>
+
+          <!-- Ward Members -->
+          <div class="member-card">
+            <div class="name">सौ. अंजुम मुस्ताक सय्यद</div>
+            <div class="role">Member</div>
+          </div>
+          <div class="member-card">
+            <div class="name">सौ. नम्रता प्रवीण कांबळे</div>
+            <div class="role">Member</div>
+          </div>
+          <div class="member-card">
+            <div class="name">श्री. विठ्ठल पंढरीनाथ दळवी</div>
+            <div class="role">Member</div>
+          </div>
+          <div class="member-card">
+            <div class="name">श्री. सतीश रमेश दळवी</div>
+            <div class="role">Member</div>
+          </div>
+          <div class="member-card">
+            <div class="name">सौ. प्रतीक्षा अर्जुन पुंड</div>
+            <div class="role">Member</div>
+          </div>
+          <div class="member-card">
+            <div class="name">सौ. स्वाती भाऊसाहेब शिंदे</div>
+            <div class="role">Member</div>
+          </div>
+          <div class="member-card">
+            <div class="name">श्री. सागर बाळासाहेब कल्हापुरे</div>
+            <div class="role">Member</div>
+          </div>
+          <div class="member-card">
+            <div class="name">सौ. नंदा बबन करांडे</div>
+            <div class="role">Member</div>
+          </div>
+          <div class="member-card">
+            <div class="name">सौ. प्रतिभा दिलीप थोरात</div>
+            <div class="role">Member</div>
+          </div>
+          <div class="member-card">
+            <div class="name">श्री. ईश्वर बाळकृष्ण फसले</div>
+            <div class="role">Member</div>
+          </div>
+          <div class="member-card">
+            <div class="name">श्री. मयूर अरुण जगताप</div>
+            <div class="role">Member</div>
+          </div>
+          <div class="member-card">
+            <div class="name">श्री. अनशाबापू भागिनाथ शिंदे</div>
+            <div class="role">Member</div>
+          </div>
+          <div class="member-card">
+            <div class="name">श्री. नाथा जगन शिंदे</div>
+            <div class="role">Member</div>
+          </div>
+          <div class="member-card">
+            <div class="name">सौ. सोनाली मारुती आमले</div>
+            <div class="role">Member</div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Body + Sidebar -->
+    <div class="container">
+      <div class="about-layout">
+        <div class="prose-section">
+
+          <p>
+            Arangaon, also known as Meherabad, is a village in Ahilyanagar district of Maharashtra, India.
+            Located along the banks of the Godavari basin region, Arangaon is home to a close-knit farming
+            community that has preserved its traditions across generations. The village is internationally
+            recognized as Meherabad — the spiritual centre established by Avatar Meher Baba, which draws
+            thousands of pilgrims and visitors from around the world every year.
+          </p>
+          <p>
+            The Grampanchayat is the local self-government body responsible for the administration and
+            development of the village. Our office — Gramsansad Bhavan — serves as the centre for citizen
+            services, public meetings, and community decisions. We focus on inclusive growth, modern
+            infrastructure, and preserving the cultural identity that makes Arangaon special.
+          </p>
+
+          <h2>Our Mission</h2>
+          <p>
+            To deliver responsive, transparent and inclusive local self-government — improving the quality
+            of life for every resident of Arangaon while preserving our cultural and spiritual heritage for
+            future generations.
+          </p>
+
+          <h2>Our Values</h2>
+          <ul>
+            <li>Transparency in every decision and public expenditure</li>
+            <li>Equality and dignity for all citizens regardless of background</li>
             <li>Sustainable development and clean environment</li>
             <li>Respect for our cultural and spiritual heritage</li>
-        </ul>
-    </div>
-    <div class="space-y-6">
-        <div class="bg-slate-50 border border-slate-200 rounded-xl p-6">
-            <h3 class="font-bold text-lg mb-4">Office Information</h3>
-            <ul class="space-y-3 text-sm text-slate-600">
-                <li><strong class="block text-slate-900">Office</strong> Gramsansad Bhavan</li>
-                <li><strong class="block text-slate-900">Location</strong> Arangaon (Meherabad)</li>
-                <li><strong class="block text-slate-900">Taluka / District</strong> Ahilyanagar</li>
-                <li><strong class="block text-slate-900">State</strong> Maharashtra, India</li>
-                <li><strong class="block text-slate-900">Email</strong> arangaongp@gmail.com</li>
-            </ul>
+            <li>Inclusive governance — giving every resident a voice</li>
+          </ul>
+
+          <h2>Key Focus Areas</h2>
+          <div class="focus-grid">
+            <div class="focus-card">
+              <div class="focus-icon">🏗️</div>
+              <h3>Infrastructure</h3>
+              <p>Roads, drainage, street lighting, and public facilities for every ward.</p>
+            </div>
+            <div class="focus-card">
+              <div class="focus-icon">💧</div>
+              <h3>Water &amp; Sanitation</h3>
+              <p>Clean drinking water supply and sanitation for all households.</p>
+            </div>
+            <div class="focus-card">
+              <div class="focus-icon">📚</div>
+              <h3>Education &amp; Youth</h3>
+              <p>Supporting schools, scholarships, and skill development for young residents.</p>
+            </div>
+            <div class="focus-card">
+              <div class="focus-icon">🌿</div>
+              <h3>Environment</h3>
+              <p>Tree plantation, waste management, and clean village initiatives.</p>
+            </div>
+          </div>
+
         </div>
+
+        <!-- Sidebar -->
+        <aside>
+
+          <div class="office-card">
+            <h3>Office Information</h3>
+            <dl>
+              <div><dt>Office</dt><dd>Gramsansad Bhavan</dd></div>
+              <div><dt>Location</dt><dd>Arangaon (Meherabad)</dd></div>
+              <div><dt>Taluka / District</dt><dd>Ahilyanagar</dd></div>
+              <div><dt>State</dt><dd>Maharashtra, India</dd></div>
+              <div><dt>PIN Code</dt><dd>414304</dd></div>
+              <div><dt>Email</dt><dd><a href="mailto:arangaongram@gmail.com">arangaongram@gmail.com</a></dd></div>
+            </dl>
+          </div>
+
+          <div class="office-card" style="margin-top:1.5rem;">
+            <h3>Office Hours</h3>
+            <dl>
+              <div style="display:flex;justify-content:space-between;padding:0.35rem 0;border-bottom:1px solid #e2e8f0;">
+                <dt>Mon – Fri</dt><dd style="font-weight:600;">10:00 AM – 5:00 PM</dd>
+              </div>
+              <div style="display:flex;justify-content:space-between;padding:0.35rem 0;border-bottom:1px solid #e2e8f0;">
+                <dt>Saturday</dt><dd style="font-weight:600;">10:00 AM – 2:00 PM</dd>
+              </div>
+              <div style="display:flex;justify-content:space-between;padding:0.35rem 0;">
+                <dt>Sunday</dt><dd style="color:#dc2626;font-weight:600;">Closed</dd>
+              </div>
+            </dl>
+          </div>
+
+          <div class="office-card" style="margin-top:1.5rem;background:#eff6ff;border-color:#bfdbfe;">
+            <h3 style="color:var(--primary);">Quick Links</h3>
+            <div style="display:flex;flex-direction:column;gap:0.6rem;margin-top:0.75rem;">
+              <a href="services.html" style="color:var(--primary);font-size:0.9rem;text-decoration:none;">→ Government Services</a>
+              <a href="history.html" style="color:var(--primary);font-size:0.9rem;text-decoration:none;">→ Village History</a>
+              <a href="gallery.html" style="color:var(--primary);font-size:0.9rem;text-decoration:none;">→ Photo Gallery</a>
+              <a href="contact.html" style="color:var(--primary);font-size:0.9rem;text-decoration:none;">→ Contact Grampanchayat</a>
+            </div>
+          </div>
+
+        </aside>
+      </div>
     </div>
-</section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-grid">
+      <div class="footer-col">
+        <h3>Arangaon Grampanchayat</h3>
+        <p>(Meherabad), Tal. &amp; Dist. Ahilyanagar</p>
+        <p style="margin-top:0.5rem;">A historic village serving its citizens with transparency and care.</p>
+      </div>
+      <div class="footer-col">
+        <h3>Quick Links</h3>
+        <div class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="history.html">History</a>
+          <a href="services.html">Services</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h3>Contact</h3>
+        <div class="footer-contact">
+          <div class="footer-contact-item">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span>Gramsansad Bhavan, Arangaon (Meherabad), Tal. &amp; Dist. Ahilyanagar, Maharashtra</span>
+          </div>
+          <div class="footer-contact-item">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+            <a href="mailto:arangaongram@gmail.com">arangaongram@gmail.com</a>
+          </div>
+          <div class="footer-contact-item">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.89 11.6a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.8 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 8.91a16 16 0 0 0 6 6l.96-.96a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            <span>+91 98225 23425</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <span>© 2025 Arangaon Grampanchayat. All rights reserved.</span>
+        <span>Designed for the citizens of Arangaon</span>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    function toggleMobileNav() {
+      document.getElementById('mobileNav').classList.toggle('open');
+    }
+  </script>
+
+  <style>
+    .focus-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+    .focus-card {
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      border-radius: 0.75rem;
+      padding: 1.25rem;
+    }
+    .focus-card .focus-icon { font-size: 1.5rem; margin-bottom: 0.5rem; }
+    .focus-card h3 { font-size: 1rem; font-weight: 700; margin: 0 0 0.25rem; color: #1e293b; }
+    .focus-card p { font-size: 0.875rem; color: #64748b; margin: 0; }
+    @media (max-width: 480px) {
+      .focus-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+
+</body>
+</html>
